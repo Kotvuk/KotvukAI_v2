@@ -1,0 +1,32 @@
+{
+  "name": "executive-assistant",
+  "version": "1.0.0",
+  "description": "Mission Control dashboard for Emika AI Employee Executive Assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "lightweight-charts": "^5.1.0",
+    "nodemon": "^3.0.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "vite": "^5.4.21"
+  },
+  "keywords": [
+    "dashboard",
+    "kanban",
+    "ai",
+    "mission-control"
+  ],
+  "author": "Emika",
+  "license": "MIT"
+}
